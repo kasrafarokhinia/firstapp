@@ -36,5 +36,10 @@ public class MainController {
     {
         return "testttttttt";
     }
+    @PostMapping(value = "/patch")
+    public String patchString()
+    {
+        return "patchhhh";
+    }
 
 }
