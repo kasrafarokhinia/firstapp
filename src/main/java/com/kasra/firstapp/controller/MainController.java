@@ -34,7 +34,7 @@ public class MainController {
     @PostMapping(value = "/post")
     public String postString()
     {
-        return "omaaaaaaaaaaaaaaaaaad";
+        return "testttttttt";
     }
 
 }
