@@ -27,7 +27,7 @@ public class MainController {
     @RequestMapping(value = "/json", method = RequestMethod.POST)
     public String json()
     {
-        List<User> users = new ArrayList<>();
+       List<User> users = new ArrayList<>();
        User user = new User("kasrafarokhinia","kasrafarokhinia@gmail.com");
        User user1 = new User("mohammad","testtest1");
        users.add(user);
